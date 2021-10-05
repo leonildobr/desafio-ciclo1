@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 40px;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+}
+#content-header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    margin-left: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-family: helvetica;
+    color: white;
+}
+nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    margin: 3px;
+    display:flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-family: helvetica;
+}
+.home {
+    background-color: #f9a825;
+    border-radius: 30px;
+}
+.contato:hover{
+    background-color: red;
+}
+#box-main {
+    height: 20rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+    border: 1px solid #03A9F4;
+    padding: 20px;
+}
+.estante {
+    margin: 1px;
+    width: 50%;
+}
+.pontilhado {
+    border-right: 1px dashed #000;
+}
+p{
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    font-family: helvetica;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.txt {
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+footer {
+    background-color: #212121;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#tiacademy {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: helvetica;
+    width: 200px;
+    height: auto;
+}
